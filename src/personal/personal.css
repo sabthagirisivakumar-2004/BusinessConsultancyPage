@@ -1,0 +1,378 @@
+.perhead1 {
+    color: snow;
+    position: absolute;
+    top: 100px;
+    font-size: 60px;
+    left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .per1{
+   width:700px;
+   height:600px;
+   position: absolute;
+   top: 50px;
+   left: 770px;
+   border-radius: 20px;
+  }
+  .personal1{
+    position: absolute;
+    top:1300px;
+    width: 1500px;
+    /* border-color: #ffffff;
+    border-style: solid; */
+    height:700px ;
+  }
+  .image1{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    height: 715px;
+    width:1518px;
+   
+    
+  }
+  /* .image1:hover{
+    position: absolute;
+    top: 90px;
+    left:930px;
+    height: 580px;
+    width:560px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: snow;
+    border-width: 5px;
+  
+} */
+  .head2 {
+    color: snow;
+    position: absolute;
+    top: 205px;
+    left: 40px;
+    font-size: 40px;
+    font-weight: 90;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .type {
+    display: inline-flex;
+    color: snow;
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .type span {
+    word-break: break-all;
+    height: 1.2em;
+    width: 0%;
+    overflow: hidden;
+    /* animation: t 5s linear infinite alternate ;  */
+  }
+  .perGlowsticky1 {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    color: snow;
+    border-radius: 25px;
+    background: blue;
+    font-style: bold;
+  
+    top: 505px;
+    left: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    border: none;
+    &:hover {
+      animation: glow 1s ease-in infinite;
+    }
+  
+    &::before {
+      animation: glow 1s ease-in infinite;
+      background: blue;
+      border-radius: inherit;
+      content: "";
+      filter: blur(10px);
+      opacity: 0.75;
+      position: absolute;
+      transition: all 0.3s ease-in-out;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      right: 0;
+      z-index: -1;
+    }
+  
+    &:hover::before {
+      filter: blur(20px);
+      opacity: 1;
+    }
+  }
+  @keyframes glow {
+    0% {
+      background: blue;
+    }
+    25% {
+      background: blue;
+    }
+    100% {
+      background: blue;
+    }
+  }
+  .btn1{
+    position: absolute;
+    top:490px;
+    left: 40px;
+    width: 150px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+ 
+  @keyframes t {
+    90%,
+    100% {
+      width: 100%;
+    }
+  }
+  .perhp{
+      color: snow;
+      font-size: 25px;
+      font-weight: lighter;
+      position: absolute;
+      top: 280px;
+      left: 40px;
+  }
+  .logo1{
+      position: absolute;
+      top: 510px;
+      left: 10px;
+  }
+  .logo2{
+      position: absolute;
+      top: 534px;
+      left: 150px;
+  }
+  .logo3{
+      position: absolute;
+      top: 537px;
+      left: 265px;
+      border-style: solid;
+      border-color: snow;
+      border-radius: 10px;;
+  }
+  .logo4{
+      position: absolute;
+      top: 520px;
+      left: 345px;
+      border-radius: 10px;;
+  }
+  .logo {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    font-style: normal;
+    color: snow;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  .centerpart {
+    position: absolute;
+    top: 37px;
+    left: 990px;
+  }
+  .nav1 {
+    text-decoration: none;
+    position: absolute;
+    bottom: -36px;
+    right: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+  
+    padding: 15px;
+  }
+  .nav1:hover {
+    text-decoration: none;
+    position: absolute;
+    right: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    border-bottom: 2px rgb(255, 255, 255) solid;
+  }
+  .nav2 {
+    text-decoration: none;
+    position: absolute;
+    bottom: -36px;
+    right: 270px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 15px;
+  }
+  .nav2:hover {
+    text-decoration: none;
+    position: absolute;
+    bottom: -36px;
+    right: 270px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    border-bottom: 2px rgb(255, 255, 255) solid;
+  }
+  .nav3 {
+    text-decoration: none;
+    position: absolute;
+    bottom: -36px;
+    padding: 15px;
+    right: 128px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  .nav3:hover {
+    text-decoration: none;
+    position: absolute;
+    bottom: -36px;
+    padding: 15px;
+    right: 128px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    border-bottom: 2px rgb(255, 255, 255) solid;
+  }
+  .nav4 {
+    text-decoration: none;
+    position: absolute;
+    padding: 15px;
+    bottom: -36px;
+    left: -90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  .nav4:hover {
+    text-decoration: none;
+    position: absolute;
+    padding: 15px;
+    bottom: -36px;
+    left: -90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    border-bottom: 2px rgb(255, 255, 255) solid;
+  }
+  .nav5 {
+    text-decoration: none;
+    position: absolute;
+    padding: 15px;
+    bottom: -36px;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  .nav5:hover {
+    text-decoration: none;
+    position: absolute;
+    padding: 15px;
+    bottom: -36px;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    border-bottom: 2px rgb(255, 255, 255) solid;
+  }
+
+  .Glowsticky {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    color: snow;
+    border-radius: 25px;
+    background: blue;
+    font-style: bold;
+  
+    top: 25px;
+    left: 1290px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    border: none;
+    &:hover {
+      animation: glow 1s ease-in infinite;
+    }
+  
+    &::before {
+      animation: glow 1s ease-in infinite;
+      background: blue;
+      border-radius: inherit;
+      content: "";
+      filter: blur(10px);
+      opacity: 0.75;
+      position: absolute;
+      transition: all 0.3s ease-in-out;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      right: 0;
+      z-index: -1;
+    }
+  
+    &:hover::before {
+      filter: blur(20px);
+      opacity: 1;
+    }
+  }
+  @keyframes glow {
+    0% {
+      background: blue;
+    }
+    25% {
+      background: blue;
+    }
+    100% {
+      background: blue;
+    }
+  }
+  .pos1{
+    font-size: 60px;
+    color:black;
+
+   padding-left: 220px;
+    /* border-color: black;
+    border-style: solid; */
+  }
+  /*glassmorphism` */
+  .upper-layer {
+    display: flex;
+    position: absolute;
+    top:538px;
+    left: 770px;
+  /* Setting the size of the upper layer to 80% of the screen size*/
+    height: 10px;
+    width: 600px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  
+  /*the alpha value controls the transparency*/
+    background: rgba( 255, 255, 255, 0.3 );
+  
+  /* This controls the blurring effect*/
+  backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+  
+  /*Adding the shadow*/
+  box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.18 );
+  
+  /* Adding our borders*/
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    z-index: 4;
+  }
+  
